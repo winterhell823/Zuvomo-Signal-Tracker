@@ -11,7 +11,11 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/health", (_req, res) => {
-  res.json({ success: true, status: "ok" })
+  res.json({
+    success: true,
+    status: "ok",
+    source: "zuvomo-backend"
+  })
 })
 
 app.use("/api/signals", signalRoutes)
