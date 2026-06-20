@@ -1,4 +1,5 @@
 # Trading Signal Tracking Application
+Demo link - https://zuvomo-signal-tracker.vercel.app/ 
 
 A production-ready full-stack trading signal tracker built with Node.js, Express.js, PostgreSQL, Prisma, React, Vite, and Axios. It creates and tracks trading signals, fetches live Binance prices on demand, calculates dynamic ROI, and enforces expiry rules with persisted signal state.
 
