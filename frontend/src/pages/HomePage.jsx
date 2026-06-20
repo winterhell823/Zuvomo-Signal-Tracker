@@ -1,0 +1,1 @@
+export { Homepage as HomePage } from "@/components/blocks/homepage"
